@@ -1,0 +1,40 @@
+{
+  "name": "password-strength-js",
+  "version": "1.0.0",
+  "description": "Password strength checker",
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rimraf core",
+    "build": "npm run prebuild & tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themx05/password-strength-js.git"
+  },
+  "keywords": [
+    "Password",
+    "strength",
+    "validity"
+  ],
+  "author": "Maximilien Comlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themx05/password-strength-js/issues"
+  },
+  "homepage": "https://github.com/themx05/password-strength-js#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3"
+  },
+  "main": "core/index.js",
+  "types": "./core/index.d.ts",
+  "files": [
+    "core/"
+  ],
+  "dependencies": {
+    "@types/jest": "^26.0.14"
+  }
+}
