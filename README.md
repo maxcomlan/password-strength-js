@@ -26,8 +26,9 @@ Every test return an object of type `PasswordValidity` use to compute a score wi
 
 
 
-##QuickStart
+## QuickStart
 
+install with `npm install password-strength-js`
 
 run `isPasswordSecureEnough("mypassword")`
 
